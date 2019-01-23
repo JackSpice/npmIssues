@@ -1,0 +1,8 @@
+
+1. Problem: 
+If you  get following error code during npm package(for e.g. express) installation
+ npm ERR! code E418
+ npm ERR! 418 I'm a teapot:express@latest
+
+Solution:
+npm config set registry https://registry.npmjs.org/
